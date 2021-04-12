@@ -1,0 +1,43 @@
+main #peliculas p {
+    color: black;
+    padding: 10px;
+    background-color: chartreuse;
+    text-align: center;
+    width: 100%;
+}
+
+main div#peliculas {
+    display: flex;
+    flex-flow: wrap;
+}
+
+main #peliculas div#galeria {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+   
+}
+
+main #peliculas div#galeria figure {
+    width: 45%;
+    border: 3px solid black;
+    padding: 10px;
+    margin-bottom: 10px;
+    transition: 1s all;
+}
+main #peliculas div#galeria figure:hover {
+    background-color: rgba(0,255,0,.7);
+}
+
+main #peliculas div#galeria figure:hover img {
+    transform: scale(1.2) rotate(720deg);
+
+}
+
+main #peliculas div#galeria figure img{
+    transition: 1.5s all;
+    width: 100%;
+}
+main #peliculas div#galeria figure figcaption{
+    text-align: center;
+}

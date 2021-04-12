@@ -1,0 +1,9 @@
+main #qsomos h2 {
+    color: black;
+    padding: 10px;
+}
+main #qsomos p {
+    color: black;
+    padding: 10px;
+    background-color: chartreuse;
+}

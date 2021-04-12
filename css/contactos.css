@@ -1,0 +1,9 @@
+main #contactos h2 {
+    color: black;
+    padding: 10px;
+}
+main #contactos p {
+    color: black;
+    padding: 10px;
+    background-color: chartreuse;
+}

@@ -1,0 +1,44 @@
+
+main #series p {
+    color: black;
+    padding: 10px;
+    background-color: chartreuse;
+    text-align: center;
+    width: 100%;
+}
+
+main div#series {
+    display: flex;
+    flex-flow: wrap;
+}
+
+main #series div#galeria {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+   
+}
+
+main #series div#galeria figure {
+    width: 45%;
+    border: 3px solid black;
+    padding: 10px;
+    margin-bottom: 10px;
+    transition: 1s all;;
+}
+main #series div#galeria figure:hover {
+    background-color: rgba(0,255,0,.7);
+}
+
+main #series div#galeria figure:hover img {
+    transform: scale(1.2) rotate(720deg);
+
+}
+
+main #series div#galeria figure img{
+    width: 100%;
+    transition: 1.5s all;
+}
+main #series div#galeria figure figcaption{
+    text-align: center;
+}

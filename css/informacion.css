@@ -1,0 +1,9 @@
+main #informacion h2 {
+    color: black;
+    padding: 10px;
+}
+main #informacion p {
+    color: black;
+    padding: 10px;
+    background-color: chartreuse;
+}
